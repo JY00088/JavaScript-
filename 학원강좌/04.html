@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지역변수 전역변수</title>
+    <script>
+        let a = 10;
+            b = 20; // 전역변수
+
+        function name () {
+            let a = 30; //지역함수 이 실행문에서만 움직임
+            b = 40;
+            alert(b);
+        }
+            alert(a+b);
+            name();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

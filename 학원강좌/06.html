@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if 조건문()</title>
+    <script>
+        /* 
+
+        if(조건식){
+            조건식 참일 경우 출력
+        }else{
+            조건식이 거짓일 경우 출력
+        }
+
+        if(조건식){
+            조건식 참일 경우 출력
+        }else if(조건식2){
+            조건식 2 참일 경우 출력
+        }else if(조건식3){
+            조건식 3 참일 경우 출력
+        }else{
+            조건식이 거짓일 경우 출력
+        }
+
+        */
+
+        let data = new Date();
+        let hour = data.getHours();
+            if(hour < 11){
+                alert('아침');
+            }else if(hour < 14){
+                alert('점심');
+            }else {
+                alert('저녁');
+            }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
